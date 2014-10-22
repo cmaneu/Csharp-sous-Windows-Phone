@@ -5,7 +5,7 @@ Ce repository contient les exemples de code du livre *C# sous Windows Phone*, de
 
 [Voir la fiche du livre sur le site ENI][lien-eni].
 
-![](http://media1.editions-eni.fr/livres-c-sous-windows-phone-developpez-et-publiez-vos-applications-sur-le-store/.f773825d7cdcaaa348eb694b753f335a.jpg)
+![](https://cloud.githubusercontent.com/assets/790974/4734946/3149f278-59da-11e4-9444-0c800d939157.png)
 
 ## Liste des exemples
 
