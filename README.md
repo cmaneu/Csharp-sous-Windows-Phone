@@ -14,8 +14,7 @@ Chapitre  |  Nom de la solution         |  Description
 2         | TipSplit                    | Le projet TipSplit est accessible sur son [repository GitHub][tipsplit].
 2         | HelloWorld.sln              | Votre premier projet Windows Phone
 3         | Conversions.sln             | Convertions de types de données
-4         | Evenements.sln              | Utilisation des événements, avec le `DispatcherTimer`
-4         | EvenementsXaml.sln          | Utilisation des événements en XAML 
+4         | Evenements.sln              | Utilisation des événements, en code ou XAML.
 4         | SeparationUiTraitement.sln  | Exemple d'utilisation du Dispatcher et des `Task`
 5         | Poo.sln                     | Exemple programmation orienté objet
 6         | Positionnement.sln          | Positionnement des contrôles XAML
