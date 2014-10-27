@@ -1,0 +1,100 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="Conversions.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    shell:SystemTray.IsVisible="True">
+
+    <Grid x:Name="LayoutRoot"
+          Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <StackPanel x:Name="TitlePanel"
+                    Grid.Row="0"
+                    Margin="12,17,0,28">
+            <TextBlock Text="CONVERSIONS"
+                       Style="{StaticResource PhoneTextNormalStyle}"
+                       Margin="12,0" />
+        </StackPanel>
+
+        <Grid x:Name="ContentPanel"
+              Grid.Row="1"
+              Margin="12,0,12,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*" />
+                <RowDefinition Height="12" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <ScrollViewer>
+                <StackPanel Grid.Row="0"
+                            HorizontalAlignment="Stretch">
+                    <TextBlock Text="Conversions implicites"
+                               Margin="12,0,0,0" />
+                    <Button Content="short vers int"
+                            HorizontalAlignment="Stretch"
+                            Tap="ShortVersIntTapped" />
+
+                    <TextBlock Text="Conversions explicites (casting)"
+                               Margin="12,0,0,0" />
+                    <Button Content="int vers short"
+                            HorizontalAlignment="Stretch"
+                            Tap="IntVersShortTapped" />
+                    <Button Content="'gros' int vers short"
+                            HorizontalAlignment="Stretch"
+                            Tap="GrosIntVersShortTapped" />
+
+                    <TextBlock Text="Conversions de types"
+                               Margin="12,0,0,0" />
+                    <Button Content="chaîne vers int"
+                            HorizontalAlignment="Stretch"
+                            Tap="StringToIntTapped" />
+                    <Button Content="chaîne vers int (erreur)"
+                            HorizontalAlignment="Stretch"
+                            Tap="StringErrorToIntTapped" />
+                    <Button Content="chaîne vers int (TryParse)"
+                            HorizontalAlignment="Stretch"
+                            Tap="StringTryParseToIntTapped" />
+                    <Button Content="object vers int (as)"
+                            HorizontalAlignment="Stretch"
+                            Tap="ObjectToIntTapped" />
+
+                    <TextBlock Text="Conversions vers string"
+                               Margin="12,0,0,0" />
+                    <Button Content="Autres exemples"
+                            HorizontalAlignment="Stretch"
+                            Tap="ConversionsStringTapped" />
+
+                </StackPanel>
+            </ScrollViewer>
+            <Border Grid.Row="2"
+                    Margin="12"
+                    Background="#FFE2E2E2">
+                <ScrollViewer>
+                    <TextBlock x:Name="Console"
+                               Foreground="#DE06953A"
+                               Text="Conversion"
+                               Padding="6"
+                               ScrollViewer.HorizontalScrollBarVisibility="Auto"
+                               TextWrapping="Wrap"
+                               FontFamily="Courier New"
+                               FontWeight="Bold" />
+                </ScrollViewer>
+
+            </Border>
+
+
+        </Grid>
+
+    </Grid>
+</phone:PhoneApplicationPage>
