@@ -1,0 +1,4 @@
+﻿Bonjour à tous, 
+Je suis contenu dans le package.
+
+Fichier.

@@ -20,8 +20,11 @@ Chapitre  |  Nom de la solution         |  Description
 5         | Poo.sln                     | Exemple programmation orienté objet
 6         | Positionnement.sln          | Positionnement des contrôles XAML
 6         | Controles.sln               | Utilisation des contrôles XAML (InputScope, Boutons, CheckBox, RadioButton, Slider, ProgressBar, ListBox, LongListSelector
-6         | Orientation.sln             | Exemple de gestion de l'orientation
-7         | GestionFichiers.sln         | Gestion des fichiers et dossiers
+6         | OrientationResolution.sln   | Exemple de gestion de l'orientation et des différentes résolutions
+6		  | Animations.sln 				| Création des Storyboards
+6		  | NavigationMapper.sln        | Utilisation d'un UriMapper personnalisé
+6		  | Typographie.sln  			| Utilisation d'une police de caractères personnalisé
+7         | ManipulationnFichiers.sln   | Gestion des fichiers et dossiers
 8         | Todo.sln                    | Exemple d'architecture MVVM
 9         | Cartographie.sln            | Exemples concernant la cartographie (position, affichage d'une carte, ...)
 9         | Internationalisation.sln    | Adaptation de l'application aux différentes cultures
