@@ -27,7 +27,7 @@ Chapitre  |  Nom de la solution         |  Description
 7         | ManipulationnFichiers.sln   | Gestion des fichiers et dossiers
 8         | Todo.sln                    | Exemple d'architecture MVVM
 9         | Cartographie.sln            | Exemples concernant la cartographie (position, affichage d'une carte, ...)
-9         | Internationalisation.sln    | Adaptation de l'application aux différentes cultures
+9         | Internationalisation	    | Le projet TipSplit est localisé. Il est accessible sur son [repository GitHub][tipsplit].
 10        | Notifications.sln           | Exemple d'utilisation des notifications, badges et tuiles
 10        | MotionApi.sln               | Exemple d'utilisation des APIs de Motion (gyroscope, boussole et accéléromètre)
 12        | TestsUnitaires.sln          | Exemple d'application avec tests unitaires
