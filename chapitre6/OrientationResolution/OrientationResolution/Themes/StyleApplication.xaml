@@ -1,0 +1,26 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!--  Texte  -->
+    <Style x:Key="TexteNormal"
+           BasedOn="{StaticResource PhoneTextNormalStyle}"
+           TargetType="TextBlock" />
+
+    <Style x:Key="TexteLarge"
+           TargetType="TextBlock">
+        <Setter Property="FontFamily" Value="Segoe WP Semibold" />
+        <Setter Property="FontSize" Value="32" />
+    </Style>
+
+    <!--  Mise en page  -->
+    <Style x:Key="ImageGrille" TargetType="Image">
+        <Setter Property="Width" Value="204" />
+        <Setter Property="Height" Value="204" />
+    </Style>
+
+    <Style x:Key="ElementGrille"
+           TargetType="Grid">
+        <Setter Property="Width" Value="204" />
+    </Style>
+
+</ResourceDictionary>
